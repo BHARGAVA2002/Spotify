@@ -1,5 +1,5 @@
 //Initialize variables
-let songIndex=8;
+let songIndex=4;
 let audioElement=new Audio("songs/4.mp3");
 let masterPlay=document.getElementById('masterPlay');
 let myProgressBar=document.getElementById('myProgressBar');
@@ -15,7 +15,8 @@ let songs=[
     {songName:"Ordinary Person", filePath:"songs/5.mp3",coverPath:"covers/5.jpg"},
     {songName:"I am Scared", filePath:"songs/6.mp3",coverPath:"covers/5.jpg"},
     {songName:"Rooba Rooba", filePath:"songs/7.mp3",coverPath:"covers/2.jpg"},
-    {songName:"Suvvi Suvvi", filePath:"songs/8.mp3",coverPath:"covers/8.jpg"}
+    {songName:"Suvvi Suvvi", filePath:"songs/8.mp3",coverPath:"covers/8.jpg"},
+    {songName:"Lungi Dance", filePath:"songs/9.mp3",coverPath:"covers/2.jpg"}
 ]
 
 /*songItems.forEach((element,i)=>{
